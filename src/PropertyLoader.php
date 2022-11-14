@@ -6,8 +6,8 @@ use CaioMarcatti12\Core\Launcher\Annotation\Launcher;
 use CaioMarcatti12\Core\Launcher\Enum\LauncherPriorityEnum;
 use CaioMarcatti12\Core\Launcher\Interfaces\LauncherInterface;
 use CaioMarcatti12\Core\Validation\Assert;
-use Composer\Autoload\ClassLoader;
 use CaioMarcatti12\Env\Objects\Property;
+use Composer\Autoload\ClassLoader;
 
 
 #[Launcher(LauncherPriorityEnum::BEFORE_LOAD_FRAMEWORK)]

@@ -5,9 +5,9 @@ namespace CaioMarcatti12\Env\Resolver;
 
 use CaioMarcatti12\Core\Bean\Annotation\AnnotationResolver;
 use CaioMarcatti12\Core\Bean\Interfaces\PropertyResolverInterface;
+use CaioMarcatti12\Core\Validation\Assert;
 use CaioMarcatti12\Env\Annotation\Value;
 use CaioMarcatti12\Env\Exception\PropertyNotFoundException;
-use CaioMarcatti12\Core\Validation\Assert;
 use CaioMarcatti12\Env\Objects\Property;
 use ReflectionProperty;
 

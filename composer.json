@@ -3,7 +3,7 @@
   "description": "",
   "type": "library",
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "Caio Marcatti",
@@ -18,6 +18,6 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
-    "caiomarcatti12/core": "2.0.0"
+    "caiomarcatti12/core": "~2.0.2"
   }
 }
